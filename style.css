@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1110px;
+    background-color: #393e46;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+   
+    position: absolute;
+    left: 692px;
+    top: 79px;
+    font-size: 30px;
+}
+
+#main-conatiner{
+    width: 330px;
+    height: 500px;
+    border-radius: 8px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #32e0c4;
+    overflow: hidden;
+}
+#add-btn{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #222831;
+    position: relative;
+    left: 729px;
+    top: 572px;
+}
+.fas{
+    font-size: 25px;
+    margin-top: 28px;
+    margin-left: 28px;
+    color: #ed6663;
+}
+#todo-input-wrapper{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    margin: 10px;
+    padding: 5px;
+}
+.input-colummn{
+    display: flex;
+    align-items: center;
+    margin: 2px;
+    padding: 3px;
+}
+
+
+.space-one{
+    padding: 5px;
+}
+#blur-input-box{
+    width: 500px;
+    height: 200px;
+    border-radius: 8px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #eeeeee;
+   z-index: 2;
+  
+   display: none;
+}
+#blur-input-box > input{
+    width: 94%;
+    height: 25%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border: hidden;
+    outline: none;
+    color: #3c2c3e;
+    padding: 15px;
+    background-color: #eeeeee;
+}
+
+
+.todo-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+}
